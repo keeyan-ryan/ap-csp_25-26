@@ -28,12 +28,12 @@ All computers: input-->store-->process-->output
 - **Output:** Program output is any data that are sent from a program to a device. Program output can come in a variety of forms, such as tactile, audible, visual, movement, or text.
 - **Parameter:** A parameter is an input variable of a procedure. Explicit parameters are defined in the procedure header. Implicit parameters are those that are assigned in anticipation of a call to the procedure. For example, an implicit parameter can be set through interaction with a graphical user interface.
 - **Procedure:** A procedure is a named group of programming instructions that may have parameters and return values. Procedures are referred to by different names, such as method, function, or constructor, depending on the programming language.
-- **Program code segment:** A code segment refers to a collection of program statements that are part of a program. For text-based, the collection of program statements should be continuous and within the same procedure. For block-based, the collection of program statements should be contained in the same starter block or what is referred to as a “Hat” block.
+- **Program code segment:** A code segment refers to a collection of program statements that are part of a program. For text-based, the collection of program statements should be continuous and within the same procedure. For block-based, the collection of program statements should be contained in the same starter block or what is referred to as a "Hat" block.
 - **Program functionality:** The behavior of a program during execution, often described by how a user interacts with it.
 - **Purpose:** The problem being solved or creative interest being pursued through the program.
 - **Selection:** Selection determines which parts of an algorithm are executed based on a condition being true or false. The use of try/exception statements is a form of selection statements.
 - **Sequencing:** The application of each step of an algorithm in the order in which the code statements are given.
-- **Student-developed procedure / algorithm:** Program code that is student developed has been written (individually or collaboratively) by the student who submitted the response. Calls to existing program code or libraries can be included but are not considered student developed. Event handlers are built-in abstractions in some languages and will therefore not be considered student-developed. In some block-based programming languages, event handlers begin with “when”.
+- **Student-developed procedure / algorithm:** Program code that is student developed has been written (individually or collaboratively) by the student who submitted the response. Calls to existing program code or libraries can be included but are not considered student developed. Event handlers are built-in abstractions in some languages and will therefore not be considered student-developed. In some block-based programming languages, event handlers begin with "when".
 
 
 
@@ -56,6 +56,42 @@ A[input] -->B[store]
 
 ## Program ideas
 - [ ] Random name list selector
+
+- [ ] A program where the user enters assignment scores and gets a final grade.
+        - User interface: prompts for scores
+        - List: stores all entered scores
+        - Function with parameter: calculate_average(scores_list)
+        - If-statement: determine letter grade based on average
+        - Loop: keep adding scores until user stops
+
+- [ ] Budget Tracker
+        - The user enters expenses and the program tracks totals.
+        - List: store expense entries.
+        - Function: add_expense(amount) with a parameter.
+        - If-statement: warn if budget limit is exceeded.
+        - Loop: allow repeated entries.
+
+- [ ] Temperature Converter with History
+        - The user enters temperatures to convert between Celsius/Fahrenheit.
+        - List: store all conversions.
+        - Function: convert(temp, scale) with a parameter.
+        - If-statement: check which scale to convert from.
+        - Loop: allow multiple conversions.
+
+- [ ] Character Creator
+        - The user builds a character with traits.
+        - List stores traits or past characters.
+        - Function takes a trait and applies it.
+        - If-statement checks for incompatible traits.
+        - Loop continues until character is complete.
+
+- [ ] Travel Packing Assistant
+        - The user enters items they want to pack.
+        - List stores items.
+        - Function takes an item and category.
+        - If-statement checks for duplicates.
+        - Loop continues until packing is complete.
+
 
 
  
@@ -99,10 +135,10 @@ A pixel
 > the smallest unit of a digital image, representing a single point of color or shade.
 
 bitmap 
-> a way of representing an image as a grid of pixels, where each pixel’s value is stored in binary. For black and white images, each pixel is typically 1 bit.
+> a way of representing an image as a grid of pixels, where each pixel's value is stored in binary. For black and white images, each pixel is typically 1 bit.
 
 RGB 
-> stands for Red, Green, Blue. In digital images, each pixel’s color is created by combining different intensities of these three colors, usually with 8 bits per channel.
+> stands for Red, Green, Blue. In digital images, each pixel's color is created by combining different intensities of these three colors, usually with 8 bits per channel.
 
 Computing Device
 > electronic machines that perform tasks automatically by executing instructions, enabling them to process, store, and analyze data
@@ -319,11 +355,11 @@ The performance task written resposne uses the following key verbs:
 
 
 ## Big Ideas Exam Weighting
-+ Big Idea 1: Creative Development 10–13%
-+ Big Idea 2: Data 17–22%
-+ Big Idea 3: Algorithms and Programming 30–35%
-+ Big Idea 4: Computer Systems and Networks 11–15%
-+ Big Idea 5: Impact of Computing 21–26%
++ Big Idea 1: Creative Development 10-13%
++ Big Idea 2: Data 17-22%
++ Big Idea 3: Algorithms and Programming 30-35%
++ Big Idea 4: Computer Systems and Networks 11-15%
++ Big Idea 5: Impact of Computing 21-26%
 
 ## Important info
 - ap class room task: 
