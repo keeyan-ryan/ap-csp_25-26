@@ -288,6 +288,8 @@ Undecidable Problem
 Speedup
 > Sequential time divided by paralled time.
 
+Run-Time error
+>  a program error that occurs while software is running, often causing it to crash or behave unexpectedly after passing initial checks.
 
 
 ## Revision
